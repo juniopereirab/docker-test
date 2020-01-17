@@ -1,8 +1,0 @@
-version: '3'
-services:
-  web:
-    image: nginx
-    volumes:
-      - /opt/meunginx
-    ports:
-      - 9090:9090
